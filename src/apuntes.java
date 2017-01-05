@@ -10,14 +10,21 @@
  */
 public class apuntes {
     /*
-    v-variables
+    -variables
 	valor dado a un carácter o conjunto de caracteres
 	valores que se guardan en la memoria del programa
--condiciones
+    -condiciones
 	toma de decisiones
--arreglos
+    -arreglos
 	conjuntos de datos (variable con varios datos)
--funciones
+    -funciones
 	bloques de codigo
+    
+    TAREA
+    int sueldo =1000
+    si es menos de 1000 no se descuenta nada
+    si el sueldo es mayor a 1000 y menor a 2000 se descuenta el 10%
+    si el sueldo es mayor a 2000 y menor a 3000 se descuenta el 20%
+    si el sueldo es mayor a 3000 se descuenta el 30%
      */
 }
