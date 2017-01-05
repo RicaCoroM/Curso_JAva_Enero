@@ -52,6 +52,7 @@ public class Ricardo {
         String res = abc+mes;
         
         if(res.equals("holaenero")){
+            // equals es la funcion de comparar texto
             System.out.println("44444444");
         }
 
