@@ -13,7 +13,9 @@ public class clase_05_01_2017_2 {
     
     public static void main(String[] args) {
         
-        String dia = "enero";
+        String dia = "LUNES";
+        dia = dia.toLowerCase();
+        // todo lo comvierte a minusculas
         
         if (dia.equals("lunes") || dia.equals("martes") ||
                 dia.equals("miercoles") || dia.equals("jueves") || 
