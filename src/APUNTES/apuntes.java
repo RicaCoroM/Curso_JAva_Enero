@@ -28,5 +28,10 @@ public class apuntes {
     si el sueldo es mayor a 1000 y menor a 2000 se descuenta el 10%
     si el sueldo es mayor a 2000 y menor a 3000 se descuenta el 20%
     si el sueldo es mayor a 3000 se descuenta el 30%
+    
+    
+    Tarea
+    *calculadora sumar restar multiplicar y dividir por botones separados
+    *calculadora con todas las operaciones en una sola operacion
      */
 }
