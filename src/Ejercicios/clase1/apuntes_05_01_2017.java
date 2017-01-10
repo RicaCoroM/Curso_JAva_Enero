@@ -1,4 +1,4 @@
-package APUNTES;
+package Ejercicios.clase1;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
