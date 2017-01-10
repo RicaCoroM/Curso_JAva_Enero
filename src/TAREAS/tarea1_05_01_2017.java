@@ -1,6 +1,6 @@
 package TAREAS;
 
-public class tarea05_01_2017 {
+public class tarea1_05_01_2017 {
 
     /*
     TAREA
