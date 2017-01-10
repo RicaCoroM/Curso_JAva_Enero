@@ -1,3 +1,5 @@
+package APUNTES;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -8,7 +10,7 @@
  *
  * @author roberto
  */
-public class apuntes_05_01_2017 {
+public class apuntes {
     /*
     -variables
 	valor dado a un carácter o conjunto de caracteres
