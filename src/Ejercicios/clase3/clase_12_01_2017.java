@@ -23,7 +23,7 @@ public class clase_12_01_2017 {
         System.out.println("la resta es: "+ (a-b));
     }//resta
     public static void multi(int a , int b){
-        System.out.println("la multipicacion es: "+ (a*b));
+        System.out.println("la multiplicacion es: "+ (a*b));
     }//multi
     public static void div(int a , int b){
         System.out.println("la division es: "+ (a/b));
@@ -31,12 +31,16 @@ public class clase_12_01_2017 {
     public static void operacion(int a , int b , int c){
         if (c==1){
             System.out.println("la suma es: "+ (a+b));
+            suma(a,b);
         }else if(c==2){
             System.out.println("la resta es: "+(a-b));
+            resta(a,b);
         }else if(c==3){
             System.out.println("la multiplicacion es: "+ (a*b));
+            multi(a,b);
         }else if(c==4){
-            System.out.println("La divicion es:"+(a/b));
+            System.out.println("La division es:"+(a/b));
+            div(a,b);
         }
     }//operacion
 }//class
