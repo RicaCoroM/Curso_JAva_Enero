@@ -20,27 +20,33 @@ public class principal {
 //        int res=10+x.x;
 //        System.out.println("res ---> "+res);
 //        //hola();
-        persona e = new persona();
+        Persona e = new Persona();
 
         e.nombre = "Eduardo";
         e.edad = 29;
+        e.datos();
+//
+//        System.out.println("nombre: " + e.nombre);
+//        System.out.println("edad: " + e.edad);
 
-        System.out.println("nombre: " + e.nombre);
-        System.out.println("edad: " + e.edad);
+//        operaciones op = new operaciones();
+//
+//        op.suma(2, 3);
+//        int rrr = op.operacion(10, 2, 1);
+//        
+//        op.res(rrr);
+        Persona d = new Persona();
 
-        operaciones op = new operaciones();
+        d.nombre = "Diana";
+        d.edad = 26;
+        d.datos();
+//        System.out.println("nombre ---> "+ e.nombre);//Eduardo
+//        System.out.println("nombre ---> "+ d.nombre);//Diana
 
-        op.suma(2, 3);
-        int rrr = op.operacion(10, 2, 1);
-        
-        op.res(rrr);
-        
-        persona d= new persona();
-        
-        d.nombre="Diana";
-        d.edad=26;
-        System.out.println("nombre ---> "+ e.nombre);//Eduardo
-        System.out.println("nombre ---> "+ d.nombre);//Diana
+        Iva iva = new Iva();
+        double iva1 = iva.iva(45);
+        String ivares = iva.ivares(iva1);
+        System.out.println(ivares);// el resultado del iva:52.2
 
     }//main
 
