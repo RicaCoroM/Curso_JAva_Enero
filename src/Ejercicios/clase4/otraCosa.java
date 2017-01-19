@@ -9,11 +9,6 @@ package Ejercicios.clase4;
  *
  * @author TeinuxAdmin
  */
-public class persona {
-    String nombre;
-    int edad=0;
+public class otraCosa {
     
-    public void datos(){
-        
-    }
 }
