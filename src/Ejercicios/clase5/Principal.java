@@ -3,17 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Ejercicios.clase4;
+package Ejercicios.clase5;
 
 /**
  *
  * @author TeinuxAdmin
  */
-public class Persona {
-    String nombre;
-    int edad=0;
-    
-    public void datos(){
-        
+public class Principal {
+
+    public static void main(String[] args) {
+        System.out.println("Principal");
+
+        Persona per1 = new Persona("Roberto", 20);//constructor
+        per1.datos();
     }
+
 }

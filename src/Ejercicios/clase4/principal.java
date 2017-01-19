@@ -20,7 +20,7 @@ public class principal {
 //        int res=10+x.x;
 //        System.out.println("res ---> "+res);
 //        //hola();
-        Persona e = new Persona();
+        persona e = new persona();
 
         e.nombre = "Eduardo";
         e.edad = 29;
@@ -35,7 +35,7 @@ public class principal {
 //        int rrr = op.operacion(10, 2, 1);
 //        
 //        op.res(rrr);
-        Persona d = new Persona();
+        persona d = new persona();
 
         d.nombre = "Diana";
         d.edad = 26;
