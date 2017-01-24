@@ -1,6 +1,6 @@
 package Ejercicios.clase5;
 
-public class Producto {
+public abstract class Producto {
 
     private String nombre = "";
     private int precio = 0;
