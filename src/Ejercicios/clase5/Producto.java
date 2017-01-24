@@ -1,23 +1,22 @@
-
 package Ejercicios.clase5;
 
 public class Producto {
 
-    private String nombre="";
+    private String nombre = "";
     private int precio = 0;
-    private String marca="";
-    
+    private String marca = "";
+
     public Producto() {
-    }
-    
-    public Producto(String nombre,int precio, String marca) {
+    }//overload o sobre carga indica que tiene mas de 1 contructor 
+
+    public Producto(String nombre, int precio, String marca) {
         setNombre(nombre);
         setPrecio(precio);
         setMarca(marca);
     }
 
     public String getNombre() {
-        return nombre;
+        return this.nombre;
     }
 
     public void setNombre(String nombre) {
@@ -25,7 +24,7 @@ public class Producto {
     }
 
     public int getPrecio() {
-        return precio;
+        return this.precio;
     }
 
     public void setPrecio(int precio) {
@@ -33,18 +32,19 @@ public class Producto {
     }
 
     public String getMarca() {
-        return marca;
+        return this.marca;
     }
 
     public void setMarca(String marca) {
         this.marca = marca;
     }
-    public void data(){
+
+    public void data() {
         System.out.println("- - - PRODUCTO - - -");
-        System.out.println("Nombre: "+this.getNombre());
-        System.out.println("Precio: "+this.getPrecio());
-        System.out.println("Marca: "+this.getMarca());
-        
+        System.out.println("Nombre: " + this.getNombre());
+        System.out.println("Precio: " + this.getPrecio());
+        System.out.println("Marca: " + this.getMarca());
+
     }
 
 }
