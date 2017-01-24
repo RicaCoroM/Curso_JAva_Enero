@@ -33,5 +33,14 @@ public class apuntes {
     Tarea
     *calculadora sumar restar multiplicar y dividir por botones separados
     *calculadora con todas las operaciones en una sola operacion
+    
+    ANDOID STUDIO
+    https://developer.android.com/studio/index.html?hl=es-419
+    
+    SAMSUNG KIES
+    http://www.samsung.com/mx/support/usefulsoftware/KIES/
+    
+    XAMPP
+    https://www.apachefriends.org/es/index.html
      */
 }
