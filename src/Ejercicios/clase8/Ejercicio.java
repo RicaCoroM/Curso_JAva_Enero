@@ -70,7 +70,7 @@ public class Ejercicio {
         arr_al.add("Guten Morgen");
         int b = 1;
         for (int cont = 0; cont < arr_al.size(); cont++) {
-            System.out.println(b+" : " + arr_al(cont));
+            System.out.println(b+" : " + arr_al);
             b++;
         }
     }
