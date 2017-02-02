@@ -53,27 +53,42 @@ public class Ejercicio {
 //               break;
 //           }
 //       }
-       
-        contador();
-           
-       
-        
+        ArrayList<String> arr_al2 = new ArrayList();
+        arr_al2.add("Hola");
+        arr_al2.add("Adios");
+
+//        contador();
+        //1
+        imprimirArreglo(arr_al);
+        imprimirArreglo(arr_al2);
+
+        //2
+        UtilidadArreglos abc = new UtilidadArreglos();
+        abc.imprimirArreglo(arr_al);
+        new UtilidadArreglos().imprimirArreglo(arr_al2);
+
+        //3
+        UtilidadArreglosStatic.imprimirArreglo(arr_al);
+        UtilidadArreglosStatic.imprimirArreglo(arr_al2);
     }//main
-    
-        public static void contador() {
+
+    public static void contador() {
         ArrayList<String> arr_al = new ArrayList();//<>  generics
-        arr_al.add("Hola");
-        arr_al.add("Hello");//add agrega
-        arr_al.add("Ciao");
-        arr_al.add("Aloha");
-        arr_al.add("Konnichiwa");
-        arr_al.add("Guten Morgen");
         int b = 1;
         for (int cont = 0; cont < arr_al.size(); cont++) {
-            System.out.println(b+" : " + arr_al);
+            System.out.println(b + " : " + arr_al);
             b++;
         }
     }
 
+    public static void imprimirArreglo(ArrayList<String> arr) {
+        System.out.println("------------ARREGLO 1-------------");
+
+        for (int cont = 0; cont < arr.size(); cont++) {
+            System.out.println((cont + 1) + " : " + arr.get(cont)
+            );
+        }
+
+    }
 
 }//class
